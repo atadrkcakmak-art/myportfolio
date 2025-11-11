@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Ata Doruk Çakmak</span>
+            </div>
+            <ul class="nav-menu">
+                
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Me</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#interests" class="nav-link">Skills and Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- CV Header Section -->
+     <br>
+     <br>
+     <section id="home" class="cv-header">
+        <div class="container">
+            <div class="cv-header-content">
+                <!-- Profile Photo -->
+                <div class="cv-photo">
+                    <img src="doruk.png" alt="Profile Photo">
+                </div>
+                
+                <!-- Personal Information -->
+                <div class="cv-info">
+                    <h1 class="cv-name">Ata Doruk Çakmak</h1>
+                    <h2 class="cv-title">Unity Game Programmer</h2>
+                    <p class="cv-description">I'm a Game Programmer specializing in Unity, passionate about crafting immersive gameplay systems and interactive worlds.</p>
+                    
+                    <!-- Contact Information -->
+                    <div class="cv-contact">
+                        <div class="contact-row">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>atadoruk68@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+90 545 415 68 77</span>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Ankara, Turkey</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <span>linkedin.com/in/atadorukcakmak</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Skills -->
+                    <div class="cv-skills">
+                        <h3>Main Skills</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">Unreal Engine</span>
+                            <span class="skill-badge">Blueprints</span>
+                            <span class="skill-badge">C++</span>
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">Game Design</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiences</h2>
+            <div class="experience-timeline">
+                <div class="experience-card" onclick="openExperienceModal(0)">
+                    <div class="experience-header">
+                        <div class="experience-logo">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Game Programmer</h3>
+                            <h4>Dinomore Games</h4>
+                            <span class="experience-period">June 2025 - Continuing</span>
+                        </div>
+                    </div>
+                    <div class="experience-details">
+                        <p>I develop and lead game projects aimed for release on Steam, PlayStation 4/5, and Nintendo Switch. My work spans from gameplay and UI programming to platform-specific integrations, ensuring each title meets both creative and technical standards.</p>
+                        <div class="experience-skills">
+                            <span class="skill-badge">Unity</span>
+                            <span class="skill-badge">Unreal Engine</span>
+                            <span class="skill-badge">Blueprints</span>
+                            <span class="skill-badge">C++</span>
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">Team Leadership</span>
+                        </div>
+                        <div class="card-click-hint">
+                            <i class="fas fa-mouse-pointer"></i>
+                            <span>Click to see details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card" onclick="openExperienceModal(1)">
+                    <div class="experience-header">
+                        <div class="experience-logo">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Game Programmer</h3>
+                            <h4>Erik Games</h4>
+                            <span class="experience-period">August 2024 - May 2025</span>
+                        </div>
+                    </div>
+                    <div class="experience-details">
+                        <p>I contributed to the development of multiple games for Steam and PlayStation 4/5, including released simulator titles and several story-driven console projects. As a Unity programmer, I primarily worked with Unity engine, though I also have experience with Unreal Engine. My work covered gameplay systems, narrative mechanics, and overall production flow.</p>
+                        <div class="experience-skills">
+                            <span class="skill-badge">Unity</span>
+                            <span class="skill-badge">Unreal Engine</span>
+                            <span class="skill-badge">Blueprints</span>
+                            <span class="skill-badge">Perforce</span>
+                            <span class="skill-badge">Agile Development</span>
+                        </div>
+                        <div class="card-click-hint">
+                            <i class="fas fa-mouse-pointer"></i>
+                            <span>Click to see details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card" onclick="openExperienceModal(2)">
+                    <div class="experience-header">
+                        <div class="experience-logo">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Cryptography Researcher</h3>
+                            <h4>LambdaClass</h4>
+                            <span class="experience-period">September 2023 - February 2024</span>
+                        </div>
+                    </div>
+                    <div class="experience-details">
+                        <p>Focused on algorithm design and linear algebra. Strengthened my problem-solving and system-design skills, which now support my technical work in game development.</p>
+                        <div class="experience-skills">
+                            <span class="skill-badge">Algorithm Design</span>
+                            <span class="skill-badge">Mathematical Modeling</span>
+                            <span class="skill-badge">Linear Algebra</span>                            
+                        </div>
+                        <div class="card-click-hint">
+                            <i class="fas fa-mouse-pointer"></i>
+                            <span>Click to see details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card" onclick="openExperienceModal(3)">
+                    <div class="experience-header">
+                        <div class="experience-logo">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="experience-info">
+                            <h3>Intern Game Programmer</h3>
+                            <h4>gamegine games</h4>
+                            <span class="experience-period">June 2023 - September 2023</span>
+                        </div>
+                    </div>
+                    <div class="experience-details">
+                        <p>Started my journey with Unreal Engine during this internship, creating a top-down shooter game using Blueprints. Gained hands-on experience in core gameplay logic and visual scripting.</p>
+                        <div class="experience-skills">
+                            <span class="skill-badge">Unreal Engine</span>
+                            <span class="skill-badge">Blueprints</span>
+                            <span class="skill-badge">Game Design</span>
+                        </div>
+                        <div class="card-click-hint">
+                            <i class="fas fa-mouse-pointer"></i>
+                            <span>Click to see details</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education History</h2>
+            <div class="education-content">
+                <div class="university-card">
+                    <div class="university-header">
+                        <div class="university-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="university-info">
+                            <h3>Çankaya University</h3>
+                            <h4>Computer Engineering</h4>
+                            <span class="education-period">2021 - 2025</span>
+                        </div>
+                    </div>
+                    <div class="university-details">
+                        <p>Studied Computer Engineering, gaining strong foundations in programming, algorithms, and systems design. These skills have directly supported my work in game development, while my community leadership experience sharpened my project management, collaboration, and technical communication skills which are essential for coordinating development teams and delivering complex projects.</p>
+                        
+                        <div class="achievements">
+                            <h5>Achievements</h5>
+                            <ul>                                
+                                <li>Attended & Organized Various Game Development & Industry Related Events</li>
+                                <li>Organized Blockchain Events with 1500+ Participants, Attended Global Blockchain Exhibitions and Hackathons.</li>
+                            </ul>
+                        </div>
+
+                        <div class="community-involvement">
+                            <h5>Community Involvements</h5>
+                            <div class="community-items">
+                                <div class="community-item">
+                                    <i class="fas fa-users"></i>
+                                    <div>
+                                        <h6>Game Developers Community</h6>
+                                        <p>Co-Founded and Co-Led the Game Developers Community (2023 - 2025)</p>
+                                    </div>
+                                </div>
+                                <div class="community-item">
+                                    <i class="fas fa-code"></i>
+                                    <div>
+                                        <h6>Blockchain Community</h6>
+                                        <p>Vice President of the Blockchain Community (2022 - 2023)</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="skills-learned">
+                            <h5>Skills Learned</h5>
+                            <div class="skill-tags">
+                                <span class="skill-tag">C</span>
+                                <span class="skill-tag">C#</span>
+                                <span class="skill-tag">Unity</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">Computer Graphics</span>
+                                <span class="skill-tag">AI Training</span>
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">Java Script</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Game Programming</h3>
+                    <p>Building gameplay systems, tools and mechanics with both Unity and Unreal Engine, always keeping projects clean and scalable.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Pragmatic Programmer</h3>
+                    <p>I focus on finding practical, efficient solutions instead of over-engineering. Every line of code serves a clear purpose.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Optimization & Performance</h3>
+                    <p>From draw calls to memory management — I ensure games run smoothly on PC and console without sacrificing visual fidelity.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Console Porting</h3>
+                    <p>Preparing Unity and Unreal Engine projects for console release by adapting input systems, performance settings and platform-specific features.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-vr-cardboard"></i>
+                    </div>
+                    <h3>Game Design Insight</h3>
+                    <p>I approach programming with a designer’s mindset — understanding pacing, feedback and player experience to make mechanics feel right.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Technical Adaptability</h3>
+                    <p>Quick to learn new tools and workflows — adapting to different pipelines and challenges without slowing development down.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="portfolio-header">
+                <h2 class="section-title">Projects</h2>
+                <p class="portfolio-subtitle">Tangible examples of my creativity and technical skills.</p>
+            </div>
+            
+            <div class="portfolio-showcase">
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <div class="project-card" onclick="openProjectModal(0)">
+                        <div class="project-image">
+                            <img src="kamikazestrikefpvdrone.jpg" alt="Kamikaze Strike: FPV Drone">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>Kamikaze Strike: FPV Drone</h4>
+                                    <p>FPV Drone Action & Simulation Game</p>
+                                    <div class="project-links-mini">
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="project-details">
+                            <h4>Kamikaze Strike: FPV Drone</h4>
+                            <p>First-person view kamikaze drone action game. Infiltrate enemy lines, dodge bullets and radars, destroy targets with explosive precision.</p>
+                            <div class="project-tech-mini">
+                                <span class="tech-mini">Unreal Engine</span>
+                                <span class="tech-mini">Blueprints</span>
+                                <span class="tech-mini">C++</span>
+                                <span class="tech-mini">Steam</span>
+                                <span class="tech-mini">Windows</span>
+                            </div>
+                            <div class="project-stats-mini">
+                                <span class="stat-mini">Demo Available</span>
+                                <span class="stat-mini">Steam</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" onclick="openProjectModal(1)">
+                        <div class="project-image">
+                            <img src="firecrewsimulator.jpg" alt="Fire Crew Simulator">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>Fire Crew Simulator</h4>
+                                    <p>Firefighting Simulation Game</p>
+                                    <div class="project-links-mini">
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Fire Crew Simulator</h4>
+                            <p>Realistic firefighting simulation. Use helicopters and fire trucks to fight fires in challenging weather conditions, protect cities, forests, and people.</p>
+                            <div class="project-tech-mini">
+                                <span class="tech-mini">Unreal Engine</span>
+                                <span class="tech-mini">Blueprints</span>
+                                <span class="tech-mini">C++</span>
+                                <span class="tech-mini">Steam</span>
+                                <span class="tech-mini">Windows</span>
+                            </div>
+                            <div class="project-stats-mini">
+                                <span class="stat-mini">Coming 2026</span>
+                                <span class="stat-mini">Steam</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" onclick="openProjectModal(2)">
+                        <div class="project-image">
+                            <img src="hotelownersimulator.jpg" alt="Hotel Owner Simulator">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>Hotel Owner Simulator</h4>
+                                    <p>Business Simulation Game</p>
+                                    <div class="project-links-mini">
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fas fa-play"></i>
+                                        </a>
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Hotel Owner Simulator</h4>
+                            <p>Build, design and manage your hotel empire. Start from a small guesthouse and expand to a luxury hotel. Design rooms, negotiate prices, and grow your business.</p>
+                            <div class="project-tech-mini">
+                                <span class="tech-mini">Unreal Engine</span>
+                                <span class="tech-mini">Blueprints</span>
+                                <span class="tech-mini">C++</span>
+                                <span class="tech-mini">Steam</span>
+                                <span class="tech-mini">Windows</span>
+                            </div>
+                            <div class="project-stats-mini">
+                                <span class="stat-mini">Released 2025</span>
+                                <span class="stat-mini">Steam</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" onclick="openProjectModal(3)">
+                        <div class="project-image">
+                            <img src="suika.jpg" alt="Suika Animal Kingdom">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>Suika Animal Kingdom</h4>
+                                    <p>Puzzle Game</p>
+                                    <div class="project-links-mini">
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-playstation"></i>
+                                        </a>
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Suika Animal Kingdom</h4>
+                            <p>Merge small animals to create larger species across Forest, Beach, and Glacier themes. Strategic puzzle gameplay with vibrant graphics.</p>
+                            <div class="project-tech-mini">
+                                <span class="tech-mini">Unity</span>
+                                <span class="tech-mini">PlayStation 4</span>
+                                <span class="tech-mini">Puzzle</span>
+                            </div>
+                            <div class="project-stats-mini">
+                                <span class="stat-mini">Released 2024</span>
+                                <span class="stat-mini">PlayStation 4</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" onclick="openProjectModal(4)">
+                        <div class="project-image">
+                            <img src="helichapterx.jpg" alt="Helichapter X">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>Helichapter X</h4>
+                                    <p>Helicopter Delivery Game</p>
+                                    <div class="project-links-mini">
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-playstation"></i>
+                                        </a>
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Helichapter X</h4>
+                            <p>Pilot a helicopter to deliver gifts to designated targets within a time limit. Navigate through dynamic environments and avoid obstacles.</p>
+                            <div class="project-tech-mini">
+                                <span class="tech-mini">Unity</span>
+                                <span class="tech-mini">PlayStation 4</span>
+                                <span class="tech-mini">C#</span>
+                            </div>
+                            <div class="project-stats-mini">
+                                <span class="stat-mini">Released 2024</span>
+                                <span class="stat-mini">PlayStation 4</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" onclick="openProjectModal(5)">
+                        <div class="project-image">
+                            <img src="braininretrospace.jpg" alt="Brain in Retro Space">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h4>Brain in Retro Space</h4>
+                                    <p>Retro Space Game</p>
+                                    <div class="project-links-mini">
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-playstation"></i>
+                                        </a>
+                                        <a href="#" class="project-link" onclick="event.stopPropagation()">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Brain in Retro Space</h4>
+                            <p>Retro atmosphere space game with engaging story and superb graphics. Developed with Unity for PlayStation 4.</p>
+                            <div class="project-tech-mini">
+                                <span class="tech-mini">Unity</span>
+                                <span class="tech-mini">PlayStation 4</span>
+                                <span class="tech-mini">C#</span>
+                            </div>
+                            <div class="project-stats-mini">
+                                <span class="stat-mini">Released</span>
+                                <span class="stat-mini">PlayStation 4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Don't Hesitate To Reach Out</h3>
+                    <p>You can contact me for new projects, collaboration opportunities or just to say hello!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>atadoruk68@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/atadorukcakmak/</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/atadorukcakmak</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-twitter"></i>
+                            <span>+90 545 415 68 77</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="E-Mail Address" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ata Doruk Çakmak. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Experience Modal -->
+    <div id="experienceModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-logo">
+                    <i id="modalIcon" class="fas fa-briefcase"></i>
+                </div>
+                <div class="modal-title">
+                    <h2 id="modalJobTitle">Senior Game Developer</h2>
+                    <h3 id="modalCompany">Game Studio XYZ</h3>
+                    <span id="modalPeriod" class="modal-period">2022 - Continuing</span>
+                </div>
+                <button class="modal-close" onclick="closeExperienceModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h4><i class="fas fa-info-circle"></i> Overview</h4>
+                    <p id="modalOverview">I develop mobile and PC games with Unity in AAA game projects. I take responsibility for team leadership and technical architecture design.</p>
+                </div>
+                
+                <div class="modal-section">
+                    <h4><i class="fas fa-tasks"></i> Responsibilities</h4>
+                    <ul id="modalResponsibilities">
+                        <li>3D game development with Unity</li>
+                        <li>Team leadership and project management</li>
+                        <li>Technical architecture design</li>
+                        <li>Code review and quality control</li>
+                        <li>Performance optimization</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h4><i class="fas fa-trophy"></i> Achievements</h4>
+                    <ul id="modalAchievements">
+                        <li>Completed 3 successful game projects</li>
+                        <li>Increased team performance by 40%</li>
+                        <li>Improved code quality standards</li>
+                        <li>Started a mentorship program</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                    <div id="modalTechnologies" class="modal-tech-stack">
+                        <span class="tech-item">Unity 3D</span>
+                        <span class="tech-item">C#</span>
+                        <span class="tech-item">Git</span>
+                        <span class="tech-item">Jira</span>
+                        <span class="tech-item">Jenkins</span>
+                        <span class="tech-item">Docker</span>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h4><i class="fas fa-chart-line"></i> Projects</h4>
+                    <div id="modalProjects" class="modal-projects">
+                        <div class="project-item">
+                            <h5>Kamikaze Strike: FPV Drone</h5>
+                            <p>3D space adventure game developed for mobile platform. 1M+ downloads.</p>
+                        </div>
+                        <div class="project-item">
+                            <h5>Fire Crew Simulator</h5>
+                            <p>Racing game for PC platform. Multiplayer features.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content project-modal-content">
+            <div class="modal-header">
+                <div class="modal-logo">
+                    <i id="projectModalIcon" class="fas fa-gamepad"></i>
+                </div>
+                <div class="modal-title">
+                    <h2 id="projectModalTitle">Kamikaze Strike: FPV Drone</h2>
+                    <h3 id="projectModalCategory">3D Oyun</h3>
+                    <span id="projectModalYear" class="modal-period">2023</span>
+                </div>
+                <button class="modal-close" onclick="closeProjectModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="project-modal-image">
+                    <img id="projectModalImage" src="" alt="Project Image">
+                </div>
+                
+                <div class="modal-section">
+                    <h4><i class="fas fa-info-circle"></i> About the Project</h4>
+                    <p id="projectModalDescription">Project description will appear here.</p>
+                </div>
+                
+                <div class="modal-section" style="display: none;">
+                    <h4><i class="fas fa-chart-line"></i> Statistics</h4>
+                    <div class="project-stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number" id="projectModalDownloads">1M+</span>
+                            <span class="stat-label">Downloads</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="projectModalRating">4.8</span>
+                            <span class="stat-label">Rating</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="projectModalPlatforms">3</span>
+                            <span class="stat-label">Platform</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" id="projectModalDuration">8</span>
+                            <span class="stat-label">Months Development</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal-section">
+                    <h4><i class="fas fa-tools"></i> Technologies Used</h4>
+                    <div id="projectModalTech" class="modal-tech-stack">
+                        <!-- Tech tags will be populated here -->
+                    </div>
+                </div>
+                
+                <div class="modal-section">
+                    <h4><i class="fas fa-star"></i> Key Features</h4>
+                    <ul id="projectModalFeatures">
+                        <!-- Features will be populated here -->
+                    </ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h4><i class="fas fa-code"></i> Development Process</h4>
+                    <p id="projectModalProcess">Development process description will appear here.</p>
+                </div>
+                
+                <div class="modal-section">
+                    <h4><i class="fas fa-link"></i> Project Links</h4>
+                    <div id="projectModalLinks" class="project-links-grid">
+                        <!-- Links will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
